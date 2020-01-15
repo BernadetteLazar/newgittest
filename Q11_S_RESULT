@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS bankdb.Q11_S_RESULT(
 CUSTOMER_ID INT)
 USING CSV  
 OPTIONS (header='false',
+OPTIONS (header='false',
 __ This is something new
 nullvalue='NA',
 path='/home/bernadette/Downloads/Tables/Q11_S_RESULT'); 
