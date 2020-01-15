@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS bankdb.Q11_S_RESULT(
+CUSTOMER_ID INT)
+USING CSV  
+OPTIONS (header='false',
+nullvalue='NA',
+path='/home/bernadette/Downloads/Tables/Q11_S_RESULT'); 
